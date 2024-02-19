@@ -14,3 +14,36 @@ body {
   margin: 0 auto;
   padding-top: 65px;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+ul {
+  font-family: "JetBrains Mono", sans-serif;
+  list-style: none;
+
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "JetBrains Mono", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  opacity: 0.2;
+}
+
+ul li a:hover {
+  cursor: pointer;
+  opacity: 1;
+}
